@@ -7,8 +7,7 @@ body{
     list-style: none;
     padding: 0;
     background: #092327;
-    width: 90%;
-    max-width: 1000px;
+    width: 100%;
     margin: auto;
 }
 
@@ -16,7 +15,7 @@ body{
     text-decoration: none;
     color: white;
     padding: 20px;
-    display: block;
+    display: inline-block;;
 }
 
 .Menu ul li{
@@ -26,4 +25,14 @@ body{
 
 .Menu ul li a:hover{
     background: orangered;
+}
+
+main{
+    text-align: center;
+}
+
+.Image img{
+    width: 800px;
+    height: 450px;
+    border-radius:10px;
 }
