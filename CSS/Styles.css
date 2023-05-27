@@ -47,9 +47,66 @@ footer{
     width: 100%;
 }
 
-.Final h3{
+.Final p{
     color: white;
     padding: 20px;
     padding-left: 50px;
     text-decoration: none;
+}
+
+@media screen and (min-width: 1000px){
+    .Image img{
+        width:700px;
+        height: 400px;
+    }
+}
+
+
+@media screen and (max-width: 800px){
+    .Image img{
+        width: 300px;
+        height: 200px;
+    }
+
+    body{
+        background: #f1e8e8;
+        
+    }
+
+    .Menu{
+        background: rgb(9, 9, 71);
+    }
+
+    .Menu ul li a:hover{
+        background: rgb(155, 155, 21);
+    }
+
+    .Final{
+        background: rgb(9, 9, 71);
+    }
+}
+
+
+@media screen and (max-width: 300px){
+    .Image img{
+        width: 250px;
+        height: 150px;
+    }
+
+    body{
+        background: #f1e8e8;
+        font-size: medium;
+    }
+
+    .Menu{
+        background: rgb(9, 9, 71);
+    }
+
+    .Menu ul li a:hover{
+        background: rgb(155, 155, 21);
+    }
+
+    .Final{
+        background: rgb(9, 9, 71);
+    }
 }
