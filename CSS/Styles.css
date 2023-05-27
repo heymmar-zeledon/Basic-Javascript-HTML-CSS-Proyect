@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: #e8e8e8;
+    background: #e6dbdb;
 }
 
 .Menu{
@@ -15,7 +15,7 @@ body{
     text-decoration: none;
     color: white;
     padding: 20px;
-    display: inline-block;;
+    display: inline-block;
 }
 
 .Menu ul li{
@@ -35,4 +35,21 @@ main{
     width: 800px;
     height: 450px;
     border-radius:10px;
+}
+
+footer{
+    margin-top: 10px;
+}
+
+.Final{
+    padding: 0;
+    background: #092327;
+    width: 100%;
+}
+
+.Final h3{
+    color: white;
+    padding: 20px;
+    padding-left: 50px;
+    text-decoration: none;
 }
